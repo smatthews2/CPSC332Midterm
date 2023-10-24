@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Contact</title>
+      <link href="styles.css" rel="stylesheet">
+      <!--GITHUB PAGES DEPLOYMENT:  -->
+   </head>
+   <body>
+        <div id="header">
+            <h1 class="textlogo">Pancake De Lira</h1>
+            <h2>Web Developer and Best Guinea Pig</h2>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+
+        <div id="container">
+            <div id="main">
+                <h2>Contact Me</h2>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" placeholder="xxx@gonzaga.edu">
+                    <br>
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea type="text" name="message" id="message" cols="70" rows="10" placeholder="Your Message Here"></textarea>
+                    <br>
+                    <br>
+                    <p>How frequently can we provide you with updates from our newsletter?</p>
+                    <input type="radio" id="none" name="update_frequency" value="none">
+                    <label for="none">Not at all!</label><br>
+                    <input type="radio" id="biweekly" name="update_frequency" value="biweekly">
+                    <label for="biweekly">Biweekly</label><br>
+                    <input type="radio" id="daily" name="update_frequency" value="daily">
+                    <label for="daily">Daily</label>
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                </form>
+            </div>
+            <div id="aside">
+                <h2>Contact Details</h2>
+                <p>
+                    Email: <a href="mailto:xxx@gonzaga.edu">xxx@gonzaga.edu</a>
+                    <br>
+                    Phone Number: 123-456-7890
+                </p>
+            </div>
+        </div>
+   </body>

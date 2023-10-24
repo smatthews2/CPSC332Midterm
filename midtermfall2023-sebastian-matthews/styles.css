@@ -1,0 +1,154 @@
+body {
+    background-color: #F2F2F2;
+}
+
+p {
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+}
+
+h1.textlogo{
+    font-family: "Courier New", monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: #6BBFA0;
+    color: white;
+    padding: 5px;
+}
+
+h3 {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+a, li > a {
+    color: black;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    gap: 10px;
+}
+
+#nav li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#nav a {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-variant-caps: small-caps;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #6BBFA0;
+    color: white;
+    padding: 10px;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+div#container {
+    display: flex;
+    flex-direction: row;
+}
+
+div#main {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 70%;
+}
+
+div#aside {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 30%;
+    margin-left: 30px;
+}
+
+img.profile {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+img.aboutprofile {
+    width: 70%;
+    border: 10px solid #A62D37;
+    border-radius: 10px;
+}
+
+span.sm-emphasis {
+    color: #A62D37;
+    font-weight: bold;
+}
+
+span.emphasis {
+    display: inline-block;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #A62D37;
+    color: white;
+    padding: 10px;
+}
+
+table, td{
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+    border-collapse: collapse;
+    border: solid #B0B0B0;
+    padding: 5px;
+}
+
+thead {
+    background-color: #6BBFA0;
+    color: white;
+    font-weight: bold;
+}
+
+h4, a.speciallink{
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+    background-color: #A62D37;
+    color: white;
+    padding: 5px;
+}
+
+div#main > div{
+    border-color: #B0B0B0;
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h5 {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    padding: 5px;
+}
+
+ul, label {
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+}
+
+form {
+    background-image: linear-gradient(to right, #6BBFA0 , #A62D37);
+}
