@@ -43,7 +43,10 @@
 
             if(userNum % 2 == 0){
                 evenCountdown(userNum);
-            }else{
+            }else if(isNaN(parseInt(userNum))){
+                console.log("This is not a number!");
+            }
+            else{
                 console.log("This is an odd number.");
             };
             
